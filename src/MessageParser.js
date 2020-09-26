@@ -5,10 +5,6 @@ class MessageParser {
   
     parse(message) {
       var lowerCaseMessage = message.toLowerCase().split(" ").join("");
-     // var keyWordsArray = ["hello","hi","hey","","generalinformation","admission","cutoff",
-      //"fee","staff","faq","scholarship"]
-     
-      // if(keyWordsArray.includes(lowerCaseMessage)){
       
       if (lowerCaseMessage.includes("hello")||lowerCaseMessage.includes("hi")||lowerCaseMessage.includes("hey")) {
         this.actionProvider.greet()
