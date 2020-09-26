@@ -1,10 +1,13 @@
 # ChatBot
 # [Node Required](https://www.nodejs.org)
-Run in Terminal
+Run in Terminal to Create your own App
 * npx create-react-app chatbot
 * cd chatbot
 * npm add react-chatbot-kit
 * npm start
+* Or download the chatBot zip
+* run: npm install
+* npm start to start your server
 # Error Handling
 * After all the above steps if there is any error 
 * then goto your node_modules/react-scripts/scripts/start.js file
