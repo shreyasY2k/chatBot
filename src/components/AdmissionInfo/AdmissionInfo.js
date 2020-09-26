@@ -4,33 +4,9 @@ import "./AdmissionInfo.css";
 
 const AdmissionInfo = (props) => {
   const options = [
-    { text: "General Information", 
-      handler: props.actionProvider.handleGeneralInfoList , 
-      id: 1 
-    },
-    { text: "Admission For UG Course", 
+    { text: "Your Text Here", 
       handler:props.actionProvider.handleAdmissionsList, 
       id: 2 
-    },
-    { text: "Cut Off Rank", 
-      handler: props.actionProvider.handleCutOffRankList, 
-      id: 3 
-    },
-    { text: "Fee Schedule",
-      handler: props.actionProvider.handleFeeScheduleList,
-      id: 4 
-    },
-    { text: "Staff", 
-      handler: props.actionProvider.handleStaffList, 
-      id: 5 
-    },
-    { text: "FAQ", 
-      handler: props.actionProvider.handleFAQList, 
-      id: 6 
-    },
-    { text: "Scholarship Details", 
-      handler: props.actionProvider.handleScholarshipDetailsList,
-      id: 7 
     },
   ];
 
