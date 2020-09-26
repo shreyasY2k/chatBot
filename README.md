@@ -9,10 +9,10 @@ Run in Terminal
 * run npm start
 
 # Making Your Own Changes
-* To Generate more Widget items add them in [AdmissionInfo.js](www.github.com/shreyasY2k/chatBot/src/components/AdmissionInfo/AdmissionInfo.js)
-* Define Your Widgets in [config.js](www.github.com/shreyasY2k/chatBot/src/config.js)
-* Add Function Definition to handle widgets in [ActionProvider.js](www.github.com/shreyasY2k/chatBot/src/ActionProvider.js)
-* Add Cases to handle input text in [MessageParser.js](www.github.com/shreyasY2k/chatBot/src/MessageParser.js) and give call to the functions defined in
+* To Generate more Widget items add them in [AdmissionInfo.js](https://www.github.com/shreyasY2k/chatBot/src/components/AdmissionInfo/AdmissionInfo.js)
+* Define Your Widgets in [config.js](https://www.github.com/shreyasY2k/chatBot/src/config.js)
+* Add Function Definition to handle widgets in [ActionProvider.js](https://www.github.com/shreyasY2k/chatBot/src/ActionProvider.js)
+* Add Cases to handle input text in [MessageParser.js](https://www.github.com/shreyasY2k/chatBot/src/MessageParser.js) and give call to the functions defined in
 ActionProvider.js
 # Deployment
 Use Deployment Severs like [vercel](https://www.vercel.com) or [heroku](https://www.heroku.com) and deploy
