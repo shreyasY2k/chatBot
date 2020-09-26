@@ -7,7 +7,7 @@ Run in Terminal
 * npm start
 # Error Handling
 * After all the above steps if there is any error 
-* then goto your node_modules/react-scripts/scripts/start.js folder 
+* then goto your node_modules/react-scripts/scripts/start.js file
 * remove the ! sign in the SKIP_PREFLIGHT_CHECK 
 * It Should Work Fine
 # Making Your Own Changes
