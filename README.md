@@ -5,9 +5,6 @@ Run in Terminal
 * cd chatbot
 * npm add react-chatbot-kit
 * npm start
-* Copy Paste 
-* run npm start
-
 # Making Your Own Changes
 * To Generate more Widget items add them in [AdmissionInfo.js](https://www.github.com/shreyasY2k/chatBot/tree/master/src/components/AdmissionInfo/AdmissionInfo.js)
 * Define Your Widgets in [config.js](https://www.github.com/shreyasY2k/chatBot/tree/master/src/config.js)
