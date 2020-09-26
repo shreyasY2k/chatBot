@@ -1,5 +1,5 @@
 # ChatBot
-# [Install NPM Required](www.npmjs.com)
+# [Install NPM Required](https://www.npmjs.com)
 Run in Terminal
 * npx create-react-app chatbot
 * cd chatbot
@@ -8,4 +8,4 @@ Run in Terminal
 * Copy Paste 
 * run npm start
 # Deployment
-Use Deployment Severs like [vercel](www.vercel.com) or [heroku](www.heroku.com) and deploy
+Use Deployment Severs like [vercel](https://www.vercel.com) or [heroku](https://www.heroku.com) and deploy
