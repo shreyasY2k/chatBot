@@ -5,6 +5,11 @@ Run in Terminal
 * cd chatbot
 * npm add react-chatbot-kit
 * npm start
+# Error Handling
+* After all the above steps if there is any error 
+* then goto your node_modules/react-scripts/scripts/start.js folder 
+* remove the ! sign in the SKIP_PREFLIGHT_CHECK 
+* It Should Work Fine
 # Making Your Own Changes
 * To Generate more Widget items add them in [AdmissionInfo.js](https://www.github.com/shreyasY2k/chatBot/tree/master/src/components/AdmissionInfo/AdmissionInfo.js)
 * Define Your Widgets in [config.js](https://www.github.com/shreyasY2k/chatBot/tree/master/src/config.js)
