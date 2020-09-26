@@ -12,4 +12,5 @@ Run in Terminal
 * Add Cases to handle input text in [MessageParser.js](https://www.github.com/shreyasY2k/chatBot/tree/master/src/MessageParser.js) and give call to the functions defined in
 ActionProvider.js
 # Deployment
-Use Deployment Severs like [vercel](https://www.vercel.com) or [heroku](https://www.heroku.com) and deploy
+* Create an account for Deployment Severs like [vercel](https://www.vercel.com) or [heroku](https://www.heroku.com) and deploy
+* run command vercel --public to upload from your terminal
