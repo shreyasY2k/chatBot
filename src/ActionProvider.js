@@ -15,27 +15,11 @@ class ActionProvider {
     loveMessage(){
       const greetingMessage = this.createChatBotMessage("Love You Too!")
       this.updateChatbotState(greetingMessage)
-    }
-    
-    // handleUnknownChat = () =>{
-    //   const message = "I can't do that now I'm Still Learning"
-    //   this.updateChatbotState(message);
-    // }
-
-    handleGeneralInfoList = () => {
-        const message = this.createChatBotMessage(
-          "Fantastic, I've got the following resources for you on General Information:",
-          {
-            widget: "GeneralInformation",
-          }
-        );
-    
-        this.updateChatbotState(message);
-      };
+    };
     
     handleAdmissionsList = () =>{
         const message = this.createChatBotMessage(
-            "Fantastic! Joinning our College?",
+            "Fantastic",
             {
               widget: "Admissions",
             }
@@ -44,57 +28,7 @@ class ActionProvider {
           this.updateChatbotState(message);
     }
 
-    handleCutOffRankList = () =>{
-        const message = this.createChatBotMessage(
-            "Super, I've got the following resources for you on Cut Off Ranks:",
-            {
-              widget: "CutOffRanks",
-            }
-          );
-      
-          this.updateChatbotState(message);
-    }
-    handleFeeScheduleList = () =>{
-        const message = this.createChatBotMessage(
-            "I've got the following resources for you on Fee Structure:",
-            {
-              widget: "Fee",
-            }
-          );
-      
-          this.updateChatbotState(message);
-    }
-    handleStaffList = () =>{
-        const message = this.createChatBotMessage(
-            "Great, I've got the Staff Information Below",
-            {
-              widget: "Staff",
-            }
-          );
-      
-          this.updateChatbotState(message);
-    }
-    handleFAQList = () =>{
-        const message = this.createChatBotMessage(
-            "Good, For FAQ's Click Below",
-            {
-              widget: "FAQ",
-            }
-          );
-      
-          this.updateChatbotState(message);
-    }
-    handleScholarshipDetailsList = () =>{
-        const message = this.createChatBotMessage(
-            "Getting you Scholarship Details",
-            {
-              widget: "Scholarship",
-            }
-          );
-      
-          this.updateChatbotState(message);
-    }
-    
+   
     
     updateChatbotState(message) {
    
