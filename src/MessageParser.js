@@ -19,32 +19,11 @@ class MessageParser {
       if (lowerCaseMessage ==="") {
         this.actionProvider.noMessage();
       }
-
-      if (lowerCaseMessage.includes("generalinformation")) {
-        this.actionProvider.handleGeneralInfoList();
-      }
       if (lowerCaseMessage.includes("admission")) {
         this.actionProvider.handleAdmissionsList();
       }
-      if (lowerCaseMessage.includes("cutoff")) {
-        this.actionProvider.handleCutOffRankList();
-      }
-      if (lowerCaseMessage.includes("fee")) {
-        this.actionProvider.handleFeeScheduleList();
-      }
-      if (lowerCaseMessage.includes("staff")) {
-        this.actionProvider.handleStaffList();
-      }
-      if (lowerCaseMessage.includes("faq")) {
-        this.actionProvider.handleFAQList();
-      }
-      if (lowerCaseMessage.includes("scholarship")) {
-        this.actionProvider.handleScholarshipDetailsList();
-      }
+     //add more cases here if needed and define functions in ActionProvider.js file
     }
-    //else{
-     // this.actionProvider.handleUnknownChat();
-   // }
-//  }
+
 }
   export default MessageParser
