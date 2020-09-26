@@ -1,5 +1,5 @@
 # ChatBot
-# [NPM Required](https://www.npmjs.com)
+# [Node Required](https://www.nodejs.org)
 Run in Terminal
 * npx create-react-app chatbot
 * cd chatbot
