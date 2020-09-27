@@ -1,13 +1,12 @@
 # Automated Static Chat Bot Built using React chat-bot-kit package
-## As the Project is completely built on **react**, **nodejs** is mandatory to run the project.
-## You can see how to install node here [Node Required](https://www.nodejs.org)
-### Install NPM also if not installed while installing node
+> As the Project is completely built on **react**, **nodejs** is mandatory to run the project.
+> You can see how to install node here [Node Required](https://www.nodejs.org)
+> Install NPM also if not installed while installing node
 # Running and Testing Locally
 * Clone my repository or Download the zip File
 * In your Terminal run the following commands
 * npm install
 * npm start to start your server
-> hello
 # Error Handling
 * After all the above steps if there is any error 
 * then goto your node_modules/react-scripts/scripts/start.js file
