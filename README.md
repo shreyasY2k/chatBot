@@ -1,4 +1,6 @@
 # Automated Static Chat Bot Built using React chat-bot-kit package
+![Chat-Bot Image]
+(/images/chatbotimage.png)
 > **Prereqisites:**
 * As the Project is completely built on `react`, `nodejs` is mandatory to run the project.
 * You can see how to install node [here](https://www.nodejs.org)
