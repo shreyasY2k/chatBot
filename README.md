@@ -10,12 +10,11 @@
 * npm start to start your server
 # Error Handling
 * After all the above steps if there is any error 
-* then goto your node_modules/react-scripts/scripts/start.js file and navigate to the code below
-* 
+* then goto your node_modules/react-scripts/scripts/start.js file and navigate to the code below 
 *  ```if (process.env.SKIP_PREFLIGHT_CHECK !== 'true') {```
 *  ```verifyPackageTree();```
 *    ``` }```
- * Remove the ! sign in the above code in the start.js file
+* Change the boolean `true` to `false` 
 * It Should Work Fine
 # Making Your Own Changes
 * To Generate more Widget items add them in [AdmissionInfo.js](src/components/AdmissionInfo/AdmissionInfo.js)
