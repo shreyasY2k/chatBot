@@ -1,5 +1,5 @@
 # Automated Static Chat Bot Built using React chat-bot-kit package
-> Prereqisites:
+> **Prereqisites:**
 * As the Project is completely built on `react`, `nodejs` is mandatory to run the project.
 * You can see how to install node here [Node Required](https://www.nodejs.org)`
 * Install NPM also if not installed while installing node
