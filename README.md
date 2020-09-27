@@ -1,8 +1,8 @@
 # Automated Static Chat Bot Built using React chat-bot-kit package
 > **Prereqisites:**
 * As the Project is completely built on `react`, `nodejs` is mandatory to run the project.
-* You can see how to install node here [Node Required](https://www.nodejs.org)`
-* Install NPM also if not installed while installing node
+* You can see how to install node [here](https://www.nodejs.org)
+* Install NPM if not installed while installing node
 # Running and Testing Locally
 * Clone my repository or Download the zip File
 * In your Terminal run the following commands
@@ -10,8 +10,11 @@
 * npm start to start your server
 # Error Handling
 * After all the above steps if there is any error 
-* then goto your node_modules/react-scripts/scripts/start.js file
-* remove the ! sign in the SKIP_PREFLIGHT_CHECK 
+* then goto your node_modules/react-scripts/scripts/start.js file and navigate to the code below
+* ```if (process.env.SKIP_PREFLIGHT_CHECK !== 'true') {
+  ```verifyPackageTree();
+    }```
+ * Remove the ! sign in the above code in the start.js file
 * It Should Work Fine
 # Making Your Own Changes
 * To Generate more Widget items add them in [AdmissionInfo.js](src/components/AdmissionInfo/AdmissionInfo.js)
