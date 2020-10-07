@@ -6,6 +6,12 @@ import ActionProvider from './ActionProvider';
 import MessageParser from './MessageParser';
 import config from './config';
 
+
+import ChatBot from 'react-simple-chatbot';  // newly proposed chatBot package
+
+
+
+
 function App() {
   return (
     <div className="App">
