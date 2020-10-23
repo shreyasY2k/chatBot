@@ -19,3 +19,8 @@ ActionProvider.js
 * Create an account for Deployment Severs like [vercel](https://www.vercel.com) or [heroku](https://www.heroku.com) and deploy
 * I Recommend Vercel
 * run command vercel --public to upload from your terminal
+# Deploying on Cloud(Ex:AWS)
+* Clone my repository or Download the zip File to your /var/www/html folder.
+* In your Terminal run the following commands
+* npm install
+* npm start to start your server and run "npm build" to deploy project on the server
